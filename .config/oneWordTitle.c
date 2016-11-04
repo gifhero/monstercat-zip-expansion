@@ -12,7 +12,7 @@ int main(void){
 			return 0;	
 		}
 		else if(c == ' '){
-			if((c = getchar()) == 'x' || c == '&'){
+			if((c = getchar()) == 'x' || c == '&' || c == ' '){
 				array[i] = '\0';
 				i = 0;
 				while(array[i])

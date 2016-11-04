@@ -6,6 +6,8 @@ int main(void){
 	while((c = getchar()) != EOF && c != '\n'){
 		if(c == ' ')
 			;	
+		else if(c == "\'")
+			printf("'");
 		else
 			array[i++] = c;
 	}
